@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+/*reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*main style*/
+html,
+body{
+    font-family: 'Quicksand', sans-serif;
+    background: #0E0A27;
+    color: #fff;
+}
+
+/*
+html{
+    scroll-behavior: smooth;
+}
+*/
+
+
+h1,
+h4,
+p{
+    line-height: 1.4em;
+}
+
+p{
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+/*utility classes */
+
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+
+.large{
+    font-size: 1.2rem;
+
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    padding: 13px 20px;
+
+}
+.btn-red{
+    background: #d0044d;
+    border-radius: 5px;
+    color:#fff;
+    border: 2px solid;
+
+
+}
+
+.vtn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 13px 20px ;
+}
+
+.vtn-blue{
+    background: #2a82a4;
+    border-radius: 5px;
+    color:#fff
+    border: 2px solid;
+}
+
+form label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+form .form-group{
+    margin-bottom: 1rem;
+}
+form .form-control{
+    display: block;
+    width: 100%;
+    padding: .375rem .7rem;
+    font-size: 1rem;
+
+}
+
+
+
+/*nav*/
+#navbar{
+    overflow: auto;
+    padding: 20px 0;
+
+}
+#navbar .logo{
+    float: left;
+    padding-top: 16px;
+    font-size: 25px;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*showcase  cambiar tamaño de imagen logo y padding si es necesario es aca*/
+#showcase {
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+#showcase img{
+    width: 50%;
+    
+}
+
+#showcase p {
+    width: 50%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+/*
+#showcase a{
+    width: 180px;
+}
+*/
+
+/*clientes*/
+#clients{
+    background-image: linear-gradient(to right, #1b33f0, #d0004a);
+    padding: 50px 0;
+}
+
+.cajamarcas{
+    float: left
+    width: 25px;
+    text-align: center;
+    /*padding-left: 35%;*/
+
+}
+
+/*modificar tamaño de las imagenes para que quede bien */
+.cajamarcas img{
+    height: 130px;
+    width: 300px;
+      
+}
+
+/*servicios*/
+#productos{
+    text-align: center;
+    padding: 100px 0;
+
+}
+
+#productos h4{
+    padding-bottom: 20px;
+}
+
+.service-box{
+    float: left;
+    width: 33%;
+    padding: 50px;
+}
+
+.service-box img{
+    width: 220px;
+    text-align: center;
+    border-image: stretch;
+}
+
+/*Testimonio*/
+#testimonio{
+    background: #3e3a52;
+    padding: 50px 0;
+}
+
+#testimonio p{
+    text-align: center;
+    padding: 10px 120px;
+}
+
+.testimonio-detalle{
+    padding: 20px 0;
+}
+
+.testimonio-detalle img{
+    float: left;
+    width: 50%;
+
+}
+
+.testimonio-detalle-img img{
+    width: 80px;
+    border-radius: 50%;
+    padding: 1px;
+    float: right;
+}
+.testimonio-detalle-nombre{
+    float: right;
+    width: 50%;
+}
+
+.testimonio-detalle-nombre p{
+    padding: 12px 20px!important;
+}
+
+/*Contacto*/
+#contact{
+    padding: 100px 0;
+}
+
+#contact h4{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#contact form{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+#contact button{
+    width: 100%;
+}
+
+.form-group textarea{
+    resize: none;
+}
+
+.container #error_message{
+    margin-bottom: 20px ;
+    padding: 0px;
+    background: #fe8b8e;
+    text-align: 14px;
+    transition: all 0.5s ease;
+
+}
+
+
+
+/*codigo de pruebas*/
+.container h4{
+    color:#fff
+    font-size: large;
+    text-align: center;
+}
+
+html,
+body,
+footer{
+    text-align: center;
+}
+
+/*
+.icono i/{
+    height: 300px;
+}
+*/
+
+
+.warning{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #B06AB3;
+    padding-top: 20px;
+}
+
+
+.wrapper{
+    padding: 100px 0;
+    /*
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 350px;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    background: #0E0A27;
+    padding: 25px;
+    border-radius: 5px;
+    */
+  }
+  
+  .wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #332902;
+  }
+  
+  .wrapper .input_field{
+    margin-bottom: 10px;
+  }
+  
+  .wrapper .input_field input[type="text"],
+  .wrapper textarea{
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .wrapper textarea{
+    resize: none;
+    height: 80px;
+  }
+  
+  .wrapper .btn input[type="submit"]{
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: #fece0c;
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  #error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }

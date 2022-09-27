@@ -1,0 +1,25 @@
+
+'''
+class Clase:
+    atributo_clase='Hola'
+    __atributo_clase='Hola'
+
+    def __mi_metodo(self):
+        print('x')
+        self.__variable=0
+
+    def metodo_normal(self):
+        self.__mi_metodo()
+
+mi_clase = Clase()
+print(mi_clase.atributo_clase)
+mi_clase.metodo_normal()
+'''
+
+x=36
+y=3
+
+if x/y > 12:
+    print('es divisible')
+else:
+    print('no es divisible')

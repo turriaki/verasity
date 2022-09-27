@@ -1,0 +1,5 @@
+
+
+y='hola mundo'
+if not type(y) is int:
+    raise TypeError('Solo se admiten valores enteros')

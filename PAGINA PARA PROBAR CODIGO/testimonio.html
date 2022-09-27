@@ -1,0 +1,257 @@
+
+
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verasity</title>
+    <script src="https://kit.fontawesome.com/2425adc648.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+
+
+</head>
+<body>
+    <section id="testimonio">
+    
+            <div class="container" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nesciunt eius adipisci iusto est temporibus quidem dolores laborum modi qui accusamus pariatur delectus, doloremque asperiores nostrum? Commodi minima deleniti placeat voluptatem velit accusantium accusamus, provident adipisci beatae? Repellendus accusamus velit, quibusdam amet illo necessitatibus. Quia neque nulla excepturi minima repellat.</p>
+            </div>
+            <div class="testimonio-detalle" data-aos="fade-up">
+                <div class="testimoniodetalle-img">
+                    <img src="IMAGEN DE USUARIO" alt="">
+                </div>
+
+                <div class="testimoniodetalle-name" data-aos="fade-up">
+                    <p>NAME NAE <br> CONTEXT</p>
+                </div>
+
+            </div>
+
+
+
+            <div class="container" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nesciunt eius adipisci iusto est temporibus quidem dolores laborum modi qui accusamus pariatur delectus, doloremque asperiores nostrum? Commodi minima deleniti placeat voluptatem velit accusantium accusamus, provident adipisci beatae? Repellendus accusamus velit, quibusdam amet illo necessitatibus. Quia neque nulla excepturi minima repellat.</p>
+            </div>
+            <div class="testimonio-detalle" data-aos="fade-up">
+                <div class="testimoniodetalle-img">
+                    <img src="IMAGEN DE USUARIO" alt="">
+                </div>
+
+                <div class="testimoniodetalle-name" data-aos="fade-up">
+                    <p>NAME NAE <br> CONTEXT</p>
+                </div>
+            </div>
+
+
+
+
+            <div class="container" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nesciunt eius adipisci iusto est temporibus quidem dolores laborum modi qui accusamus pariatur delectus, doloremque asperiores nostrum? Commodi minima deleniti placeat voluptatem velit accusantium accusamus, provident adipisci beatae? Repellendus accusamus velit, quibusdam amet illo necessitatibus. Quia neque nulla excepturi minima repellat.</p>
+            </div>
+            <div class="testimonio-detalle" data-aos="fade-up">
+                <div class="testimoniodetalle-img">
+                    <img src="IMAGEN DE USUARIO" alt="">
+                </div>
+
+                <div class="testimoniodetalle-name" data-aos="fade-up">
+                    <p>NAME NAE <br> CONTEXT</p>
+                </div>
+            </div>
+
+
+            <div class="container" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nesciunt eius adipisci iusto est temporibus quidem dolores laborum modi qui accusamus pariatur delectus, doloremque asperiores nostrum? Commodi minima deleniti placeat voluptatem velit accusantium accusamus, provident adipisci beatae? Repellendus accusamus velit, quibusdam amet illo necessitatibus. Quia neque nulla excepturi minima repellat.</p>
+            </div>
+            <div class="testimonio-detalle" data-aos="fade-up">
+                <div class="testimoniodetalle-img">
+                    <img src="IMAGEN DE USUARIO" alt="">
+                </div>
+
+                <div class="testimoniodetalle-name" data-aos="fade-up">
+                    <p>NAME NAE <br> CONTEXT</p>
+                </div>
+
+            </div>
+-->
+
+<!--
+    CODIGO DE PRUEBA VUE
+-->
+<div id="app">
+    <p>
+        {{mensaje}}
+    </p>
+</div>
+
+
+
+<ul id="example-1">
+    <li v-for="fruta in frutas">
+        {{ fruta.nombre }}
+    </li>
+</ul>
+
+<div id="example-2">
+    <h1>{{titulo}}</h1>
+    <ul>
+        <li v-for="fruta in frutas">
+            {{fruta.nombre}} - {{fruta.cantidad}} 
+            <span v-if="fruta.cantidad==0"> Sin stock</span>
+            <span v-else-if="fruta.cantidad<5"> Stock bajo</span>
+            <span v-else="fruta.cantidad>=5"> Stock alto</span>
+        </li>
+    </ul>
+</div>
+<input type="text" v-model="nuevaFruta">
+<button v-on:click="agregarFruta()">Click para agregar fruta </button>
+
+
+<div id="plan">
+    <p>{{message}}</p>
+    <p><input v-model="message"></p>
+</div>
+
+
+<div id="example-4">
+    <button v-on:click="counter +=100000000000000000">Add 1</button>
+    <p>Se ha hecho click en el boton de arriba {{counter}} veces.</p>
+</div>
+
+
+
+
+
+
+<!--
+    FIN CODIGO DE PRUEBA
+-->
+
+            <div class="container" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nesciunt eius adipisci iusto est temporibus quidem dolores laborum modi qui accusamus pariatur delectus, doloremque asperiores nostrum? Commodi minima deleniti placeat voluptatem velit accusantium accusamus, provident adipisci beatae? Repellendus accusamus velit, quibusdam amet illo necessitatibus. Quia neque nulla excepturi minima repellat.</p>
+            </div>
+            <div class="testimonio-detalle" data-aos="fade-up">
+                <div class="testimoniodetalle-img">
+                    <img src="IMAGEN DE USUARIO" alt="">
+                </div>
+
+                <div class="testimoniodetalle-name" data-aos="fade-up">
+                    <p>NAME NAE <br> CONTEXT</p>
+                </div>
+            </div>
+
+
+
+
+            <div class="container" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nesciunt eius adipisci iusto est temporibus quidem dolores laborum modi qui accusamus pariatur delectus, doloremque asperiores nostrum? Commodi minima deleniti placeat voluptatem velit accusantium accusamus, provident adipisci beatae? Repellendus accusamus velit, quibusdam amet illo necessitatibus. Quia neque nulla excepturi minima repellat.</p>
+            </div>
+            <div class="testimonio-detalle" data-aos="fade-up">
+                <div class="testimoniodetalle-img">
+                    <img src="IMAGEN DE USUARIO" alt="">
+                </div>
+
+                <div class="testimoniodetalle-name" data-aos="fade-up">
+                    <p>NAME NAE <br> CONTEXT</p>
+                </div>
+            </div>
+
+
+            <div class="container" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nesciunt eius adipisci iusto est temporibus quidem dolores laborum modi qui accusamus pariatur delectus, doloremque asperiores nostrum? Commodi minima deleniti placeat voluptatem velit accusantium accusamus, provident adipisci beatae? Repellendus accusamus velit, quibusdam amet illo necessitatibus. Quia neque nulla excepturi minima repellat.</p>
+            </div>
+            <div class="testimonio-detalle" data-aos="fade-up">
+                <div class="testimoniodetalle-img">
+                    <img src="IMAGEN DE USUARIO" alt="">
+                </div>
+
+                <div class="testimoniodetalle-name" data-aos="fade-up">
+                    <p>NAME NAE <br> CONTEXT</p>
+                </div>
+
+            </div>
+
+
+
+            <div class="container" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nesciunt eius adipisci iusto est temporibus quidem dolores laborum modi qui accusamus pariatur delectus, doloremque asperiores nostrum? Commodi minima deleniti placeat voluptatem velit accusantium accusamus, provident adipisci beatae? Repellendus accusamus velit, quibusdam amet illo necessitatibus. Quia neque nulla excepturi minima repellat.</p>
+            </div>
+            <div class="testimonio-detalle" data-aos="fade-up">
+                <div class="testimoniodetalle-img">
+                    <img src="IMAGEN DE USUARIO" alt="">
+                </div>
+
+                <div class="testimoniodetalle-name" data-aos="fade-up">
+                    <p>NAME NAE <br> CONTEXT</p>
+                </div>
+            </div>
+
+
+
+
+            <div class="container" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nesciunt eius adipisci iusto est temporibus quidem dolores laborum modi qui accusamus pariatur delectus, doloremque asperiores nostrum? Commodi minima deleniti placeat voluptatem velit accusantium accusamus, provident adipisci beatae? Repellendus accusamus velit, quibusdam amet illo necessitatibus. Quia neque nulla excepturi minima repellat.</p>
+            </div>
+            <div class="testimonio-detalle" data-aos="fade-up">
+                <div class="testimoniodetalle-img">
+                    <img src="IMAGEN DE USUARIO" alt="">
+                </div>
+
+                <div class="testimoniodetalle-name" data-aos="fade-up">
+                    <p>NAME NAE <br> CONTEXT</p>
+                </div>
+            </div>
+        
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <footer>
+
+        <div class="icono">
+            <a href="https://www.instagram.com/verasity_arg/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    
+    </footer>
+
+    <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+    <button type="submit" class="btn primary full">enviar mensaje</button>
+  </form>
+  <a href="mailto:me@leonidasesteban.com" id="trucazo">jojojoj</a>
+  <a href="mailto:me@leonidasesteban.com" id="trucazo"></a>
+</div>
+</div>
+</section>
+@@ -225,14 +225,19 @@ <h3 class="tag"><span>HABLEMOS</span></h3>
+</footer>
+<script>
+const $form = document.querySelector('#form')
+const $buttonMailto = document.querySelector('#trucazo')
+
+$form.addEventListener('submit', handleSubmit)
+
+function handleSubmit(event) {
+event.preventDefault()
+const form = new FormData(this)
+trucazo.setAttribute('href', `mailto:me@leonidasesteban.com?subject=${form.get('name')}${form.get('email')}&body=${form.get('message')}`)
+trucazo.click()
+$buttonMailto.setAttribute('href', `mailto:me@leonidasesteban.com?subject=nombre ${form.get('name')}  correo ${form.get('email')}&body=${form.get('message')}`)
+$buttonMailto.click()
+}
+</script>
+
+
+
+
+<script src="https://cdn.jsdelivr.net
+/npm/vue/dist/vue.js"></script>
+ <script src="intro-vue.js"></script>
+</body>
+
